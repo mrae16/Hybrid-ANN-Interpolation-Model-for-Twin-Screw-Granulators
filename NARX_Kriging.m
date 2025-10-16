@@ -4,7 +4,7 @@ clc
 
 tic 
 
-Data = load('Kriging_Kneading.txt');
+Data = load('TSWG_MeanRes_Dataset.txt');
 x = Data(:,1);
 y = Data(:,2);
 t = Data(:,3);
@@ -231,3 +231,4 @@ disp(['Standard deviation or error: ', num2str(std(errNARX))])
 disp(['Mean Absolute Error: ', num2str(mean(abs(errNARX)))])
 
 toc
+
