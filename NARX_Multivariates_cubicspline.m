@@ -5,7 +5,7 @@ clc
 tic
 % Generate or load the dataset
 % Assume 'data' is a 24x4 matrix where each column represents a variable
-data = load("Kriging_Kneading.txt"); % Replace with your actual dataset
+data = load("TSWG_MeanRes_Dataset.txt"); % Replace with your actual dataset
                                                              % run, l/s, sspeed, pfrate, mrt, sconfig 
 DataTest2_NonInterpolated = data(1:end, :);
 
@@ -348,6 +348,7 @@ disp(['Mean Absolute Error: ', num2str(mean(abs(errNARX)))])
 % end 
 
 toc
+
 
 
 
