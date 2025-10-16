@@ -8,3 +8,7 @@ The proiject has three main files:
  --- The additional files were also used in the paper but were not the main prevailing codes of the successful models. I have included here only for your interest:
  --- The NARX_Univariates_trainlm.m is the same as the above NARX__univariates_trainbr.m file but uses the trainlm algorithm and has been architectually optimised for that algorithm.
  --- The NARX_Kriging.m file is my replication of the results presented in the Ismail et al (2019) paper above using the Kriging interpolation method. 
+
+
+DATASET: The dataset is layed out with columns 1:4 being [Liquid-Solid ratio,	Screw Speed (rpm),	Powder flow rate (g/h),	Mean Residence Time (s)].
+The first three columns are used as input variables to predict the mean residence time as the output. The datset has a total of 24 measurements of each variable. 
