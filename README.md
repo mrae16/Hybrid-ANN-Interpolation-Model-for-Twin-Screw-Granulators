@@ -1,6 +1,8 @@
+These codes are the result of the publication by Rae et al (2025) which can be found at https://doi.org/10.1007/s11831-025-10371-z and should be cited respectfully if used in future works.
+
 The proiject has three main files: 
 
- --- The Kriging Kneading.txt file is the dataset found originally in the paper by Ismail et al (2019) found at https://doi.org/10.1016/j.powtec.2018.11.060
+ --- The Kriging Kneading.txt file is the dataset found originally in the paper by Ismail et al (2019) found at https://doi.org/10.1016/j.powtec.2018.11.060. You must cite this paper when using this datset. 
  
  --- The NARX__univariates_trainbr.m is the NARX ANN model coupled with various univariate interpolation methods and using the trainbr
  
