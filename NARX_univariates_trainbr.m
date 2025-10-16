@@ -12,7 +12,7 @@ tic
 
 % for i = 1:5 
 for L = 10       %For comparing 4 different interpolation ratios
-Data = load("Kriging_Kneading.txt"); % L/S	Screw Speed (rpm)	Powder flow rate (g/h)	Mean Residence Time (s)
+Data = load("TSWG_MeanRes_Dataset.txt"); % L/S	Screw Speed (rpm)	Powder flow rate (g/h)	Mean Residence Time (s)
 DataTest2_NonInterpolated = Data(1:end, :);
 
 
@@ -463,3 +463,4 @@ toc
 % ylabel('Mean Residence Time (sec)', FontSize=12)
 % xlabel('SS \cdot FFR', FontSize=12)
 % fontname('Times New Roman');
+
